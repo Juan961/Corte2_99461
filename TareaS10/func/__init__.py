@@ -2,6 +2,8 @@ from typing import List
 
 import random
 
+from utils import is_prime
+
 def random_function():
     try:
         random_list = []
@@ -18,9 +20,19 @@ def random_function():
         def custom_min(_list:List[int]):
             _list.sort()
             print(f"Min: { _list[0] } ")
+        
+        def find_primes(_list:List[int]):
+            prime_list = []
+
+            for i in _list:
+                if is_prime(i):
+                    prime_list.append(i)
+
+            print(f"Prime list: { prime_list }")
 
         custom_max(random_list.copy())
         custom_min(random_list.copy())
+        find_primes(random_list.copy())
 
     except Exception as e:
         print(e)
