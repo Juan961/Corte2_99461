@@ -5,9 +5,9 @@ def main():
     random_function()
     print("==================== End Random Function  ====================")
 
-    print("==================== Start Calc Function  ====================")
+    print("==================== Start Schedule Function  ====================")
     schedule()
-    print("==================== End Calc Function  ====================")
+    print("==================== End Schedule Function  ====================")
 
 
 if __name__ == "__main__":
