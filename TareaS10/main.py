@@ -1,7 +1,7 @@
 from func import schedule, random_function
 
 def main():
-    print("==================== Start Random Function  ====================")
+    print("==================== Start Random & Primes Function  ====================")
     random_function()
     print("==================== End Random Function  ====================")
 
