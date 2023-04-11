@@ -75,7 +75,3 @@ class Person():
     @staticmethod
     def hi():
         print(f"Hola")
-
-class Student(Person):
-    def __init__(self):
-        super()
