@@ -30,7 +30,6 @@ def read_data():
 
     file.close()
 
-    # Get the total countries in a list and sort them by their name
     for product_line in products_lines:
         product_list = product_line.replace("\n", "").split(",")
 
